@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url('menu back.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(186 152 69);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    letter-spacing: 1px;
+    background-color: #ddd;
+    color: black;
+}
+#heading{
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(186 152 69);
+    font-size: 80px;
+}
+.main{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#sidebar{
+    background-color: rgba(186, 153, 69, 0.278);
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 29%;
+    position: fixed;
+    height: 100%;
+    
+}
+#sidebar h2{
+    padding: 15px 0px 15px 0px;
+}
+#sidebar h2:hover{
+    background-color: rgb(186 152 69);
+    color: black;
+    letter-spacing: 0.5px;
+}
+#menu{
+    background-color: rgba(186, 153, 69, 0.278);
+    margin-left: 34%;
+    width: 67%;
+    text-align: center;
+
+}
+#heading1{
+    font-size: xx-large;
+    color: rgb(205, 182, 36);
+    font-weight: 900;
+    text-decoration: underline;
+    margin-top: 45px;
+}
+#content{
+    color: white;
+    margin: 30px 0px 40px;
+    display: flex;
+}
+#non-veg{
+    margin-left: 10%;
+}
+#veg{
+    margin-left: 12%;
+}
+table tr{
+    height: 35px;
+}
+table th{
+    width: 140px;
+    font-weight: 900;
+    color: white;
+}
+table td{
+    width: 140px;
+    color: rgb(217, 175, 68)
+}
+/* #menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+/* #menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+} */
+
+/* Handle */
+/* #menu::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+} */
+
+/* Handle on hover */
+/* #menu ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+} */
+.active{
+        background-color: rgb(186 152 69);
+            color: black;
+}
